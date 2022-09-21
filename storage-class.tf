@@ -7,5 +7,5 @@ metadata:
   name: ${var.storage_class_name}
 provisioner: efs.csi.aws.com
 YAML
-  depends_on = [helm_release.kubernetes_efs_csi_driver]
+  # depends_on = [helm_release.kubernetes_efs_csi_driver]
 }
